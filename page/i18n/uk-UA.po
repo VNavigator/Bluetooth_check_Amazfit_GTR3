@@ -1,0 +1,6 @@
+msgid "bluetooth"
+msgstr "Зв'язок з телефоном втрачено!"
+msgid "ok"
+msgstr "ГАРАЗД"
+msgid "cancel"
+msgstr "СКАСУВАТИ"

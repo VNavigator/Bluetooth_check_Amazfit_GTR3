@@ -1,0 +1,6 @@
+msgid "bluetooth"
+msgstr "Telephone connection has lost!"
+msgid "ok"
+msgstr "OK"
+msgid "cancel"
+msgstr "CANCEL"

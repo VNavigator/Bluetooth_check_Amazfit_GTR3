@@ -1,0 +1,62 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 1020908,
+    "appName": "Bluecheck",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.1"
+    },
+    "icon": "icon.png",
+    "vender": "zepp",
+    "description": "Check bluetooth connection"
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "454x454": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "Amazfit GTR 3",
+          "deviceSource": 226
+        },
+        {
+          "name": "Amazfit GTR 3",
+          "deviceSource": 227
+        },
+        {
+          "name":"Amazfit T-Rex 2",
+          "deviceSource":418
+        },
+        {
+          "name":"Amazfit T-Rex 2",
+          "deviceSource":419
+        }
+      ],
+      "designWidth": 454
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "CheckBlue"
+    },
+    "uk-UA": {
+      "appName": "CheckBlue"
+    }
+  },
+  "defaultLanguage": "uk-UA"
+}
