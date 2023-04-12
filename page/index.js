@@ -11,7 +11,7 @@ let appId = 1020908;
 function showDialog(){
   const dialog = hmUI.createDialog({
     title: gettext('bluetooth'),
-    auto_hide: true,
+    auto_hide: false,
     click_linster: ({ type }) => {
       if(type==0){//cancel button
         hmFS.SysProSetInt(ALARM_SENT,0)
